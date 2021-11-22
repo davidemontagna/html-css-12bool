@@ -15,70 +15,71 @@
 
         <!--Prima riga-->
         <div class="row">
-            <div class="blue col-1">1 col</div>
-            <div class="blue col-1">1 col</div>
-            <div class="blue col-1">1 col</div>
-            <div class="blue col-1">1 col</div>
-            <div class="blue col-1">1 col</div>
-            <div class="blue col-1">1 col</div>
-            <div class="blue col-1">1 col</div>
-            <div class="blue col-1">1 col</div>
-            <div class="blue col-1">1 col</div>
-            <div class="blue col-1">1 col</div>
-            <div class="blue col-1">1 col</div>
-            <div class="blue col-1">1 col</div>
+            <div class="blue col-1 centering">1 col</div>
+            <div class="blue col-1 centering">1 col</div>
+            <div class="blue col-1 centering">1 col</div>
+            <div class="blue col-1 centering">1 col</div>
+            <div class="blue col-1 centering">1 col</div>
+            <div class="blue col-1 centering">1 col</div>
+            <div class="blue col-1 centering">1 col</div>
+            <div class="blue col-1 centering">1 col</div>
+            <div class="blue col-1 centering">1 col</div>
+            <div class="blue col-1 centering">1 col</div>
+            <div class="blue col-1 centering">1 col</div>
+            <div class="blue col-1 centering">1 col</div>
         </div>
     </div>
 
     <!--Seconda riga-->
     <div class="container">
         <div class="row">
-            <div class="blue col-2">col</div>
-            <div class="blue col-5">col</div>
-            <div class="blue col-5">col</div>
+            <div class="blue col-2 centering">col</div>
+            <div class="blue col-5 centering">col</div>
+            <div class="blue col-5 centering">col</div>
         </div>
     </div>
 
     <!--Terza riga-->
     <div class="container">
         <div class="row">
-            <div class="blue col-12">12 col</div>
+            <div class="blue col-12 centering">12 col</div>
         </div>
     </div>
 
     <!--Quarta riga-->
     <div class="container">
         <div class="row">
-            <div class="blue col-8">8 col</div>
-            <div class="blue col-2">2 col</div>
-            <div class="blue col-2">2 col</div>
+            <div class="blue col-8 centering">8 col</div>
+            <div class="blue col-2 centering">2 col</div>
+            <div class="blue col-2 centering">2 col</div>
         </div>
     </div>
     
     <!--Quinta riga-->
     <div class="container">
         <div class="row">
-            <div class="blue col-1">1 col</div>
-            <div class="blue col-2">2 col</div>
-            <div class="blue col-2">2 col</div>
-            <div class="blue col-6">6 col</div>
-            <div class="blue col-1">1 col</div>
+            <div class="blue col-1 centering">1 col</div>
+            <div class="blue col-2 centering">2 col</div>
+            <div class="blue col-2 centering">2 col</div>
+            <div class="blue col-6 centering">6 col</div>
+            <div class="blue col-1 centering">1 col</div>
         </div>
     </div>
 
     <!--Sesta riga-->
     <div class="container">
         <div class="row">
-            <div class="blue-container col-6">
-                <div class="green col-2">Nested 2 col</div>
-                <div class="green col-2">Nested 2 col</div>
-                <div class="green col-8">Nested 8 col</div>
+    
+            <div class="centering blue-container col-6">
+                <div class="green col-2 centering">Nested 2 col</div>
+                <div class="green col-2 centering">Nested 2 col</div>
+                <div class="green col-8 centering">Nested 8 col</div>
             </div>
 
-            <div class="blue-container col-6">
-                <div class="green col-2">Nested 2 col</div>
-                <div class="green col-2">Nested 2 col</div>
-                <div class="green col-8">Nested 8 col</div>
+            <div class="centering blue-container col-6">
+                <div class="green col-2 centering">Nested 2 col</div>
+                <div class="green col-2 centering">Nested 2 col</div>
+                <div class="green col-8 centering">Nested 8 col</div>
             </div>           
         </div>
     </div>
@@ -190,13 +191,13 @@
     <div class="space container">
         <h2>Nested</h2>
         <div class="row">
-            <div class="blue-container col-8">
+            <div class="blue-container col-8 centering">
                 <div class="green col-3"></div>
                 <div class="green col-6"></div>
                 <div class="green col-3"></div>
             </div>
 
-            <div class="blue-container col-4">
+            <div class="blue-container col-4 centering">
                 <div class="green col-6"></div>
                 <div class="green col-6"></div>
             </div>           
@@ -207,11 +208,53 @@
     <div class="space container">
         <h2>Alignment</h2>
         <div class="row">
-            <div class="blue col-6">Start</div>
-            <div class="blue col-6 col-offset-3">Center</div>
-            <div class="blue col-6 col-offset-6">End</div>
+            <div class="blue col-6 centering">Start</div>
+            <div class="centering blue col-6 col-offset-3">Center</div>
+            <div class="centering blue col-6 col-offset-6">End</div>
+        </div>
+
+        <div class="row">
+            <div class="blue-container col col-6 .col-offset-12"></div>
+            <div class="centering col-6 blue">Top</div>
+        </div>
+
+        <div class="row centering">
+            <div class="blue-container col col-6 .col-offset-12"></div>
+            <div class="middle-text col-6 blue centering">Middle</div>
+        </div>
+
+        <div class="row bottom">
+            <div class="blue-container col col-6 .col-offset-12"></div>
+            <div class="col-6 blue centering">Bottom</div>
         </div>
     </div>
+
+    <!--Sezione Justify content-->
+    <div class="container space">
+        <h2>Justify Content</h2>
+        <h3>Space Around</h3>
+        <div class="row">
+            <div class="blue-container col-12 space-around">
+                <div class="green col-2"></div>
+                <div class="green col-2"></div>
+                <div class="green col-2"></div>
+            </div>
+
+        </div>
+        <h3>Space between</h3>
+        <div class="row">
+            <div class="blue-container col-12 space-between">
+                <div class="green col-2"></div>
+                <div class="green col-2"></div>
+                <div class="green col-2"></div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
 
 </body>
 </html>
