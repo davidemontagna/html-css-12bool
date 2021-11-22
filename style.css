@@ -1,0 +1,9 @@
+.blue{
+    background-color: #006cfa;
+    border: 1px solid #fff;
+    color: #fff;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
