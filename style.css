@@ -1,9 +1,29 @@
-.blue{
-    background-color: #006cfa;
-    border: 1px solid #fff;
+.blue, .green{
     color: #fff;
     height: 40px;
+}
+
+.blue, .green, .blue-container{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.blue, .blue-container{
+    background-color: #006cfa;
+    border: 1px solid #fff;
+}
+
+.blue-container{
+    padding: 5px;
+    height: 60px;
+}
+
+.green{
+    background-color: #00e165;
+    border: 1px solid #006cfa;
+}
+
+.space{
+    margin-top: 20px;
 }
